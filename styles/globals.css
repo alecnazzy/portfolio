@@ -23,6 +23,7 @@ a {
   }
   body {
     color: white;
-    background: black
+    background-color: #45423f;
+    background: linear-gradient(#45423f, #3d3b38);
   }
 }

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,51 +17,38 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <h1 className={styles.title}>
-          <code>var myName: string = "Alec";</code>
+          <code>Alec Nazworth</code>
         </h1>
-
-        <p className={styles.description}>
+        <div className={styles.text}>
+        <p>
           I'm a computer science student at Florida International University
         </p>
+        </div>
+        
+        <h1 className={styles.title}>Contact</h1>
 
-        <h1 className={styles.title}> Skills: </h1>
-        <div className={styles.logos}>
-          <Image className={styles.logo}
-            src="/javascript-logo.png"
-            alt="JavaScript Logo"
-            width={50}
-            height={50}
-          />
-          <Image className={styles.logo}
-            src="/React-icon.svg.png"
-            alt="React Logo"
-            width={50}
-            height={50}
-          />
-          <Image className={styles.logo}
-            src="/nextjs-logo.png"
-            alt="Next.js Logo"
-            width={50}
-            height={50}
-          />
-          <Image className={styles.logo}
-            src="/nodejs-logo.png"
-            alt="Node.js Logo"
-            width={50}
-            height={50}
-          />
-          <Image className={styles.logo}
-            src="/java-logo.png"
-            alt="Java Logo"
-            width={50}
-            height={50}
-          />
-          <Image className={styles.logo}
-            src="/spring-logo.png"
-            alt="Spring Logo"
-            width={50}
-            height={50}
-          />
+        <div>
+          <div className={styles.icon_display}>
+            <h2 className={styles.contact}>
+                <Link href="https://github.com/alecnazzy">GitHub</Link>
+            </h2>
+            <Image
+                className={styles.icon}
+                src="/icons8-github-squared-100.png"
+                alt="GitHub logo"
+                width={50}
+                height={50}
+                />
+          </div>
+            <h2 className={styles.contact}>
+                <Link href="https://www.linkedin.com/in/alec-nazworth-3ab6b4237/">LinkedIn</Link>
+            </h2>      
+            <h2 className={styles.contact}>
+                <Link href="https://www.instagram.com/alec.nazworth">Instagram</Link>
+            </h2>   
+            <h2 className={styles.contact}>
+                <Link href="mailto:alecnazworthalt@gmail.com">Gmail</Link>
+            </h2>
         </div>
       </main>
       <Footer />

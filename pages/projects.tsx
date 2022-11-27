@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 export default function Projects() {
     return (
@@ -16,7 +17,25 @@ export default function Projects() {
         <main className={styles.main}>
         <Navbar />
             <h1 className={styles.title}>Projects</h1>
-        
+            <div className={styles.text}>
+              <h1>Boba theme for vscode</h1>
+              <h3>
+                <Link href="https://github.com/alecnazzy/boba-theme">
+                  GitHub repository
+                </Link>
+              
+              </h3>
+            </div>
+            <div>
+              <Image
+                src="/boba-theme-1.png"
+                alt="Boba theme screenshot"
+                width={650}
+                height={600}
+              />
+              
+            </div>
+              
         </main>
         <Footer />
     </div>

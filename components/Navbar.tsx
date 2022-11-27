@@ -16,11 +16,6 @@ export default function Navbar() {
                 Projects
             </Link>
         </li>
-        <li>
-            <Link href="/contact">
-                Contact
-            </Link>
-        </li>
       </ul>   
     </nav>
     </div>
