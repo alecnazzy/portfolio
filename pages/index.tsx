@@ -16,21 +16,32 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
         <Navbar />
+
+        {/* Title and Profile pic */}
+
         <h1 className={styles.title}>
           Alec Nazworth
         </h1>
-
-        <div className={styles.profile_pic}>
-          <img src="/handsome-sob.jpg" alt="" />
+        <div>
+        <Image
+            className={styles.profile_pic}
+            src="/handsome-sob.jpg"
+            alt="ME"
+            width={150}
+            height={150}
+          />
         </div>
+          
+        {/* About me */}
         
         <div className={styles.text}>
           <p>I enjoy making
           cool things for the internet, [insert streaming service here] and chill, and using expensive software 
           like Adobe Creative Suite for my other hobbies.</p>
         
-          <p>I'm student at Florida International University, majoring in computer science. During college I hope to find an (<small>paid🤞</small>) internship to increase my skills in web development 
+          <p>I am student at Florida International University, majoring in computer science. During college I hope to find an (<small>paid🤞</small>) internship to increase my skills in web development 
           and pay rent.</p>
 
           <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include 
@@ -39,6 +50,7 @@ export default function Home() {
           <h3><a href="\alec-nazworth-resume.pdf" download>Resume</a></h3>
         </div>
         
+        {/* Contact Me section */}
         
         <h1 className={styles.title}>Contact Me</h1>
 
@@ -91,10 +103,10 @@ export default function Home() {
                 </Link>
             </h2>
         </div>
-
-
       </main>
+
       <Footer />
+
     </div>
   )
 }

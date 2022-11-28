@@ -16,8 +16,14 @@ export default function Projects() {
       </Head>
 
         <main className={styles.main}>
+
         <Navbar />
+
+            {/* Title */}
+
             <h1 className={styles.title}>Projects</h1>
+
+            {/* Boba theme project */}
             <div className={styles.text}>
               <h1>Boba theme for VSCode</h1>
               <p>A little theme I cooked up, inspired by the pastel colors common with
@@ -27,28 +33,46 @@ export default function Projects() {
                   GitHub repository
                 </Link>
               </h3>
-              <div>
+              <div className={styles.carousel}>
               <Carousel cols={1} rows={1} gap={10} loop>
                 <Carousel.Item>
-                  <img width="100%" src="/html-boba.png" alt="" srcset="" />
+                  <Image
+                    src={"/html-boba.png"}
+                    alt="HTML example"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src="/js-boba.png" alt="" />
+                  <Image
+                    src={"/js-boba.png"}
+                    alt="JS example"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src="/ts-boba.png" alt="" />
+                  <Image
+                    src={"/ts-boba.png"}
+                    alt="TS example"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src="/css-boba.png" alt="" />
+                  <Image
+                    src={"/css-boba.png"}
+                    alt="CSS example"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
               </Carousel>
               </div>
-              
-              
-            
             </div>
             
-    
+          {/* Website portfolio project */}
+
             <div className={styles.text}>
               <h1>This Website</h1>
               <p>I created this site with TypeScript, React, Next.js, and deployed
@@ -58,22 +82,32 @@ export default function Projects() {
                   GitHub repository
                 </Link>
               </h3>
-              <div>
+              <div className={styles.carousel}>
               <Carousel cols={1} rows={1} gap={10} loop>
                 <Carousel.Item>
-                  <img width="100%" src="/home-screen.png" alt="" />
+                  <Image
+                    src={"/home-screen.png"}
+                    alt="Home screen"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img width="100%" src="/project-screen.png" alt="" />
+                  <Image
+                    src={"/project-screen.png"}
+                    alt="Project screen"
+                    width={700}
+                    height={500}
+                  />
                 </Carousel.Item>
               </Carousel>
               </div>
             </div>  
 
         </main>
-        <Footer />
-    </div>
 
-    
+        <Footer />
+
+    </div>
     )
 }
