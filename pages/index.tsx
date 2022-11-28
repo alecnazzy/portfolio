@@ -41,7 +41,7 @@ export default function Home() {
           cool things for the internet, [insert streaming service here] and chill, and using expensive software 
           like Adobe Creative Suite for my other hobbies.</p>
         
-          <p>I am student at Florida International University, majoring in computer science. During college I hope to find an (<small>paid🤞</small>) internship to increase my skills in web development 
+          <p>I am a student at Florida International University, majoring in computer science. During college I hope to find an (<small>paid🤞</small>) internship to increase my skills in web development 
           and pay rent.</p>
 
           <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include 
