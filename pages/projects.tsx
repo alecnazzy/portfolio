@@ -20,14 +20,14 @@ export default function Projects() {
             <h1 className={styles.title}>Projects</h1>
             <div className={styles.text}>
               <h1>Boba theme for VSCode</h1>
-              <p>A little theme I cooked up after trying a hundred different 
-                themes and my ocd rejecting all of them</p>
+              <p>A little theme I cooked up, inspired by the pastel colors common with
+                 boba(bubble) tea that are easier for the eyes to digest.</p>
                 <h3>
-                <Link href="https://github.com/alecnazzy/boba-theme">
+                <Link href="https://github.com/alecnazzy/boba-theme" target="_blank">
                   GitHub repository
                 </Link>
               </h3>
-              <div className={styles.carousel}>
+              <div>
               <Carousel cols={1} rows={1} gap={10} loop>
                 <Carousel.Item>
                   <img width="100%" src="/html-boba.png" alt="" srcset="" />
@@ -50,13 +50,24 @@ export default function Projects() {
             
     
             <div className={styles.text}>
-              <h1>Personal website</h1>
-              <p>This is the website you are currently on. I made it with TypeScript, React, and Next.js</p>
+              <h1>This Website</h1>
+              <p>I created this site with TypeScript, React, Next.js, and deployed
+                to the web using Vercel.</p>
               <h3>
-              <Link href="https://github.com/alecnazzy/portfolio">
+              <Link href="https://github.com/alecnazzy/portfolio" target="_blank">
                   GitHub repository
                 </Link>
               </h3>
+              <div>
+              <Carousel cols={1} rows={1} gap={10} loop>
+                <Carousel.Item>
+                  <img width="100%" src="/home-screen.png" alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width="100%" src="/project-screen.png" alt="" />
+                </Carousel.Item>
+              </Carousel>
+              </div>
             </div>  
 
         </main>

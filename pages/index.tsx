@@ -20,22 +20,31 @@ export default function Home() {
         <h1 className={styles.title}>
           Alec Nazworth
         </h1>
-        <div className={styles.text}>
-          <p>I'm student at Florida International University, majoring in computer science. I enjoy making
-          cool things for the internet and using overpriced software such as the Adobe Creative Suite for my hobbies.</p>
-        
-          <p>During college I hope to find a (<small>paid🤞</small>) internship, to increase my skills in web development 
-          and pay rent.</p>
 
-          <p>I mostly work with JavaScript, so TypeScript is my favorite language to use. Other technologies include React
-          and Next.js.</p>
+        <div className={styles.profile_pic}>
+          <img src="/handsome-sob.jpg" alt="" />
         </div>
         
-        <h1 className={styles.title}>Contact</h1>
+        <div className={styles.text}>
+          <p>I enjoy making
+          cool things for the internet, [insert streaming service here] and chill, and using expensive software 
+          like Adobe Creative Suite for my other hobbies.</p>
+        
+          <p>I'm student at Florida International University, majoring in computer science. During college I hope to find an (<small>paid🤞</small>) internship to increase my skills in web development 
+          and pay rent.</p>
+
+          <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include 
+             React, Next.js, PostgreSQL, along with a little Java.</p>
+
+          <h3><a href="\alec-nazworth-resume.pdf" download>Resume</a></h3>
+        </div>
+        
+        
+        <h1 className={styles.title}>Contact Me</h1>
 
           <div className={styles.logo_display}>
             <h2 className={styles.contact}>
-                <Link href="https://github.com/alecnazzy">
+                <Link href="https://github.com/alecnazzy" target="_blank">
                   <Image
                   className={styles.logo}
                   src="/github-logo.png"
@@ -47,7 +56,7 @@ export default function Home() {
             </h2>
           
             <h2 className={styles.contact}>
-                <Link href="https://www.linkedin.com/in/alec-nazworth-3ab6b4237/">
+                <Link href="https://www.linkedin.com/in/alec-nazworth-3ab6b4237/" target="_blank">
                   <Image
                   className={styles.logo}
                   src="/linkedin-logo.png"
@@ -59,7 +68,7 @@ export default function Home() {
             </h2>   
 
             <h2 className={styles.contact}>
-                <Link href="https://www.instagram.com/alec.nazworth">
+                <Link href="https://www.instagram.com/alec.nazworth" target="_blank">
                   <Image
                   className={styles.logo}
                   src="/instagram-logo.png"
@@ -71,7 +80,7 @@ export default function Home() {
             </h2>   
 
             <h2 className={styles.contact}>
-                <Link href="mailto:alecnazworthalt@gmail.com">
+                <Link href="mailto:alecnazworthalt@gmail.com" target="_blank">
                   <Image
                   className={styles.logo}
                   src="/gmail-logo.png"
