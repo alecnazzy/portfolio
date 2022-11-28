@@ -27,8 +27,8 @@ Navbar styling
   margin-top: 0px;
   width: 100%;
   z-index: 1;
-  background-color: #45423f;
-  filter: opacity(0.93);
+  background-color: #25262a;
+  filter: opacity(0.7);
   backdrop-filter: blur(5px);
   /* #45423f */
 }
@@ -37,6 +37,9 @@ Navbar styling
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: monospace; */
+  /* font-weight: light; */
   font-size: large;
   padding: -10px;
   margin-left: 20px;
@@ -44,7 +47,8 @@ Navbar styling
   color: white;
 }
 .navbar li:hover {
-  color: #edd0a4;
+  /* color: #f0f3bd; */
+  text-decoration: underline;
 }
 
 /* 
@@ -57,7 +61,7 @@ Navbar styling
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
-  color: #8bbdfa;
+  color: #0ae6b7;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -66,17 +70,33 @@ Navbar styling
   line-height: 1.5;
   border-radius: 15px;
   font-family: "Roboto", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
   width: fit-content;
 }
 
 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: fit-content;
+  padding: 20px;
   font-size: 1.1rem;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-bottom: 120px;
+}
+.text h1 {
+  color: white;
+  font-family: monospace;
+  font-weight: lighter;
+  /* text-decoration: underline; */
 }
 
 .contact {
-  color: #bdbdff;
+  color: #f0f3bd;
   font-family: "Roboto", sans-serif;
   font-size: medium;
   padding: 10px;
@@ -85,12 +105,16 @@ Navbar styling
 }
 .contact:hover {
   transition: 0.3s;
-  background-color: #393945;
+  background-color: #029076;
   border-radius: 15px;
 }
-.icon_display{
+.logo_display{
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
+}
+.logo {
+  margin: 0px 10px 0px 10px;
 }
 /* 
 
@@ -106,9 +130,12 @@ Projects Styling
 
 .text h3 {
   text-align: center;
-  color: #bdbdff;
+  color: #f0f3bd;
   font-family: "Roboto", sans-serif;
-  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: large;
   padding: 10px;
   line-height: 1.5;
   border-radius: 15px;
@@ -116,7 +143,7 @@ Projects Styling
 }
 .text h3:hover {
   transition: 0.3s;
-  background-color: #393945;
+  background-color: #029076;
   border-radius: 15px;
 }
 
@@ -130,9 +157,15 @@ Footer styling
   display: flex;
   flex: 1;
   padding: 30px;
-  border-top: 2.5px solid #eaeaea;
+  border-top: 2.5px dotted white;
+  color: whitesmoke;
+  color: #222;
+  background-color: #0ab48f;
   justify-content: center;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 100;
 }
 
 

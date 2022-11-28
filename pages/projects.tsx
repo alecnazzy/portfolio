@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Link from 'next/link'
+import Carousel from 'better-react-carousel'
 
 export default function Projects() {
     return (
@@ -18,24 +19,46 @@ export default function Projects() {
         <Navbar />
             <h1 className={styles.title}>Projects</h1>
             <div className={styles.text}>
-              <h1>Boba theme for vscode</h1>
-              <h3>
+              <h1>Boba theme for VSCode</h1>
+              <p>A little theme I cooked up after trying a hundred different 
+                themes and my ocd rejecting all of them</p>
+                <h3>
                 <Link href="https://github.com/alecnazzy/boba-theme">
                   GitHub repository
                 </Link>
-              
               </h3>
-            </div>
-            <div>
-              <Image
-                src="/boba-theme-1.png"
-                alt="Boba theme screenshot"
-                width={650}
-                height={600}
-              />
+              <div className={styles.carousel}>
+              <Carousel cols={1} rows={1} gap={10} loop>
+                <Carousel.Item>
+                  <img width="100%" src="/html-boba.png" alt="" srcset="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width="100%" src="/js-boba.png" alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width="100%" src="/ts-boba.png" alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img width="100%" src="/css-boba.png" alt="" />
+                </Carousel.Item>
+              </Carousel>
+              </div>
               
-            </div>
               
+            
+            </div>
+            
+    
+            <div className={styles.text}>
+              <h1>Personal website</h1>
+              <p>This is the website you are currently on. I made it with TypeScript, React, and Next.js</p>
+              <h3>
+              <Link href="https://github.com/alecnazzy/portfolio">
+                  GitHub repository
+                </Link>
+              </h3>
+            </div>  
+
         </main>
         <Footer />
     </div>
