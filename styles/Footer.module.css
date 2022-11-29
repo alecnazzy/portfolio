@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #25262a;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: lighter;
+  }
+  

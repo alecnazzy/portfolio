@@ -12,13 +12,6 @@
   align-items: center;
 }
 
-.profile_pic {
-  margin-right: 10px;
-  margin-left: 10px;
-  border-radius: 50%;
-  border: 2px solid #248a74;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
@@ -40,6 +33,7 @@
 .text {
   display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 700px;
@@ -50,54 +44,34 @@
   font-family: monospace;
   font-weight: lighter;
   margin-bottom: 50px;
-}
-.text h1 {
-  color: white;
-  font-family: monospace;
-  font-weight: lighter;
-}
-.text h2 {
-  text-align: center;
-  color: #f0f3bd;
-  font-family: 'Courier New', Courier, monospace;
-  font-family: monospace;
-  font-weight: lighter;
-  font-size: large;
-  padding: 10px;
-  line-height: 1.5;
-  border-radius: 15px;
-  width: fit-content;
-}
-.text h2:hover {
-  transition: 0.3s;
-  background-color: #0ab48f;
-  border-radius: 15px;
-}
-.text p {
-  margin-left: 24px;
-}
+  }
+  .text h1 {
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+  }
+  .text h3 {
+    text-align: center;
+    color: #f0f3bd;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: large;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 15px;
+    width: fit-content;
+  }
+  .text h3:hover {
+    transition: 0.3s;
+    background-color: #0ab48f;
+    border-radius: 15px;
+  }
+  .text p {
+    margin-left: 24px;
+  }
 
-.contact {
-  color: #f0f3bd;
-  padding: 10px;
-  line-height: 1.5;
-  border-radius: 15px;
-}
-.contact:hover {
-  transition: 0.3s;
-  background-color: #0ab48f;
-  border-radius: 15px;
-}
-.logo_display{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 100px;
-}
-.logo {
-  margin: 0px 10px 0px 10px;
-}
-
-/* Mobile Device Styling */
+  /* Mobile Device Styling */
 @media (max-width: 600px) {
   .container {
     display: flex;
