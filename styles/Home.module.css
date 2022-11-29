@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -123,14 +127,6 @@
   }
   .text h3 {
     margin-left: 35px;
-  }
-  .navbar {
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar li {
-    margin-left: 15px;
-    margin-right: 15px;
   }
 
   .logo_display{
