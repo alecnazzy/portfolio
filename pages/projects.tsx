@@ -1,11 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Link from 'next/link'
 import project from '../styles/Projects.module.css'
-import footer from '../styles/Footer.module.css'
 import Project from '../components/Projects'
 
 export default function Projects() {

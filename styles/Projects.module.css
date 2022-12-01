@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
@@ -24,7 +28,6 @@
   padding: 10px;
   line-height: 1.5;
   border-radius: 15px;
-  font-family: "Roboto", sans-serif;
   font-family: 'Courier New', Courier, monospace;
   font-weight: lighter;
   width: fit-content;
@@ -81,12 +84,15 @@
   }
   .title {
     font-size: 2rem;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 0px;
+    margin-left: 50px;
   }
+
+
   .text {
     width: 100%;
     font-size: 1rem;
+    margin-left: 50px;
   }
   .text p {
     margin: 10px 0px 10px 40px;
@@ -97,14 +103,6 @@
   }
   .text h3 {
     margin-left: 35px;
-  }
-  .navbar {
-    justify-content: center;
-    align-items: center;
-  }
-  .navbar li {
-    margin-left: 15px;
-    margin-right: 15px;
   }
 
   .logo_display{

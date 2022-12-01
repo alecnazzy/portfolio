@@ -10,4 +10,10 @@
     font-size: large;
     font-weight: lighter;
   }
+
+  @media (max-width: 600px) {
+    .footer {
+      margin-left: 20px;
+    }
+  }
   

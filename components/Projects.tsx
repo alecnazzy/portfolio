@@ -18,8 +18,9 @@ export default function Projects() {
                     </Link>
                 </h3>
         </div>
-        <div>
+        <div className={project.images}>
             <Image
+                className={project.image}
                 src={"/html-boba.png"}
                 alt="JS example"
                 width={500}
