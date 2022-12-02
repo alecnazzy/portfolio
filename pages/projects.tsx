@@ -2,30 +2,29 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import project from '../styles/Projects.module.css'
+import home from '../styles/Home.module.css'
 import Project from '../components/Projects'
+import Image from 'next/image'
 
 export default function Projects() {
     return (
-    <div className={project.container}>
+    <div className={home.container}>
       <Head>
-        <title>Alec Nazworth</title>
+        <title>Projects</title>
         <meta name="description" content="Projects route" />
         <link rel="icon" href="/icons8-neo-48.png" />
       </Head>
 
-        <main className={project.main}>
+      <main className={home.main}>
 
-        <Navbar />
+          <Navbar />
 
-            {/* Title */}
+          <Project />
 
-            <h1 className={project.title}>Projects</h1>
+          <Footer />
+      </main>
 
-            <Project />
-
-        </main>
-
-        <Footer />
+        
 
     </div>
     )

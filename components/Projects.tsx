@@ -7,39 +7,45 @@ export default function Projects() {
     return (
         <div className={home.container}>
 
+            <h1 className={home.title}>Projects</h1>
+
             {/* Boba theme project */}
-            <div className={project.text}>
-                <h1>Boba theme for VSCode</h1>
+
+            <div className={home.text}>
+                <h1>
+                    Boba theme for VSCode
+                </h1>
                     <p>A little theme I cooked up, inspired by the pastel colors common with
                     boba(bubble) tea that are easier for the eyes to digest.</p>
-                <h3>
+                <h2>
                     <Link href="https://github.com/alecnazzy/boba-theme" target="_blank">
                         GitHub repository
                     </Link>
-                </h3>
-        </div>
-        <div className={project.images}>
-            <Image
-                className={project.image}
+                </h2>
+                <Image
+                className={home.image}
                 src={"/html-boba.png"}
                 alt="JS example"
-                width={500}
-                height={350}
-                objectFit="contain"
-                />
-        </div>
+                // width={500}
+                // height={350}
+                
+                layout={'intrinsic'} width={500} height={350} objectFit={'contain'}
+            />
+            </div>
+
+        
         
         {/* Website portfolio project */}
 
-        <div className={project.text}>
+        <div className={home.text}>
             <h1>This Website</h1>
                 <p>I created this site with TypeScript, Next.js, and deployed
                 to the web using Vercel.</p>
-            <h3>
+            <h2>
                 <Link href="https://github.com/alecnazzy/portfolio" target="_blank">
                     GitHub repository
                 </Link>
-            </h3>
+            </h2>
         </div>  
       </div>
     )

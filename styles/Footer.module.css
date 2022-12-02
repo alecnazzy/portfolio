@@ -6,14 +6,18 @@
     background-color: #25262a;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-family: monospace;
+    font-size: medium;
     font-weight: lighter;
   }
 
   @media (max-width: 600px) {
     .footer {
-      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 20px; */
     }
   }
   

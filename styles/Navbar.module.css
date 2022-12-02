@@ -5,7 +5,7 @@
     top: 0;
     display: flex;
     flex-direction: row;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     width: 100%;
     z-index: 1;
     background-color: #25262a;
@@ -29,13 +29,9 @@
 
   @media (max-width: 600px) {
     .navbar {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
+
     }
     .navbar li {
-      margin-left: 40px;
-      margin-right: 10px;
+      
     }
   }
