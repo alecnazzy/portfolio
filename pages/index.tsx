@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={home.container}>
       <Head>
-        <title>Alec Nazworth</title>
+        <title>alecnazzy | Home</title>
         <meta charSet="utf-8" />
         <meta name="description" content="Alec Nazworth's personal website" />
         <link rel="icon" href="/icons8-neo-48.png" />

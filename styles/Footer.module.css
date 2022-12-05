@@ -10,6 +10,9 @@
     font-size: medium;
     font-weight: lighter;
   }
+  .footer em {
+    color: #0ae6b7;
+  }
 
   @media (max-width: 600px) {
     .footer {
@@ -17,13 +20,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
-  }
-
-  @media (prefers-color-scheme: light) {
-    .footer {
-      color: #25262a;
-      background-color: rgb(222, 220, 216);
     }
   }
   

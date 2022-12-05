@@ -12,7 +12,7 @@ export default function Contact() {
                     <Link href="https://github.com/alecnazzy" target="_blank">
                         <Image
                         className={home.logo}
-                        src="/github-logo.png"
+                        src="/github-w.png"
                         alt="GitHub logo"
                         width={70}
                         height={70}
@@ -24,7 +24,7 @@ export default function Contact() {
                     <Link href="https://www.linkedin.com/in/alec-nazworth-3ab6b4237/" target="_blank">
                         <Image
                         className={home.logo}
-                        src="/linkedin-logo.png"
+                        src="/linkedin-w.png"
                         alt="LinkedIn logo"
                         width={70}
                         height={70}
@@ -36,7 +36,7 @@ export default function Contact() {
                     <Link href="https://www.instagram.com/alec.nazworth" target="_blank">
                         <Image
                         className={home.logo}
-                        src="/instagram-logo.png"
+                        src="/insta-w.png"
                         alt="Instagram logo"
                         width={70}
                         height={70}
@@ -48,7 +48,7 @@ export default function Contact() {
                     <Link href="mailto:alecnazworthalt@gmail.com" target="_blank">
                         <Image
                         className={home.logo}
-                        src="/gmail-logo.png"
+                        src="/gmail-w.png"
                         alt="Gmail logo"
                         width={70}
                         height={70}

@@ -18,23 +18,9 @@ a {
   body {
     color: white;
     background-color: #25262a;
-    /* background: linear-gradient(#45423f, #3d3b38); */
   }
 }
 
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-  body {
-    color: black;
-    background-color: rgb(222, 220, 216);
-  }
- 
-  .footer {
-    border-color: #222;
-  }
-}
 
 @media screen and (max-width: 600px) {
   html, body {

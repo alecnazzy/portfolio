@@ -14,7 +14,7 @@ export default function Profile() {
                     height={150}
                 />
             </div>
-            
+            <h1>About me</h1>
             <div className={home.text}>
                 <p>I enjoy making cool things for the internet, [insert streaming service here] and chill, and using expensive software 
                 like Adobe Creative Suite for my other hobbies.</p>

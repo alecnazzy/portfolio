@@ -26,14 +26,3 @@
   .navbar li:hover {
     text-decoration: underline;
   }
-
-  @media (prefers-color-scheme: light) {
-    .navbar {
-      background-color: rgb(222, 220, 216);
-      filter: opacity(0.9);
-      backdrop-filter: blur(10px);
-    }
-    .navbar li {
-      color: #25262a;
-    }
-  }

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
     <div className={footer.footer}>
-    <h4>© 2022 Alec Nazworth. All Rights Reserved.</h4>
+    <h4>© 2022 <em>Alec Nazworth</em>. All Rights Reserved.</h4>
     </div>
     
     </>

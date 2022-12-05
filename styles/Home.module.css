@@ -4,6 +4,12 @@
   align-items: center;
   justify-content: center;
 }
+.container h1 {
+  margin-bottom: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  color:#0ae6b7;
+}
 
 .main {
   display: flex;
@@ -14,15 +20,18 @@
 
 .profile_pic {
   border-radius: 50%;
-  border: 2px solid #248a74;
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.title {
-  color: #0ae6b7;
+.container .title {
   font-family: 'Courier New', Courier, monospace;
   font-weight: lighter;
   font-size: 50px;
   margin-top: 100px;
+  color: white;
+  border-bottom: 1.5px solid #4a4a4a;
 }
 
 .text {
@@ -35,8 +44,13 @@
   align-items: center;
   justify-content: center;
   width: 500px;
-  margin: 25px 15px;
+  margin-top: 0px;
+  margin-bottom: 70px;
   padding: 15px;
+
+  background-color: #0ae6b7;
+  border-radius: 25px;
+  color: rgb(19, 19, 19);
 }
 .text p {
   text-align: center;
@@ -49,19 +63,16 @@
   text-align: center;
 }
 .text h2 {
-  color: #f0f3bd;
   font-family: 'Courier New', Courier, monospace;
   font-family: monospace;
   font-weight: lighter;
   padding: 10px;
-  border-radius: 17px;
+  color: rgb(19, 19, 19);
+  border-radius: 15px;
 }
 .text h2:hover {
-  transition: 0.3s;
-  background-color: #0ab48f;
-  border-radius: 17px;
-
-  background-color: #0ab48f;
+  background-color: #0bd6aa;
+  padding: 10px;
 }
 .text .image {
   border-radius: 8%;
@@ -73,7 +84,7 @@
 }
 .contact:hover {
   transition: 0.3s;
-  background-color: #0ab48f;
+  background-color: #0ae6b7;
   border-radius: 15px;
 }
 .logo_display{
@@ -92,6 +103,7 @@
   .title {
     font-size: 30px;
     margin-top: 80px;
+    text-align: start;
   }
   .text {
     width: 300px;
@@ -101,39 +113,12 @@
   }
   .text h1 {
     font-size: 35px;
+    text-align: start;
+  }
+  .text p {
+    text-align: start;
   }
   .text Image {
     width: 100%;
-  }
-}
-
-
-/* Light theme Styling */
-
-@media (prefers-color-scheme: light) {
-
-  .title {
-    color: #0ab48f;
-  }
-
-  .text {
-    color: rgb(18, 18, 17);
-  }
-  .text h1 {
-    color: rgb(18, 18, 17);
-  }
-  .text h2 {
-    color: #f0f3bd;
-    background-color: #0ab48f;
-    border-radius: 17px;
-  }
-  .text h3 {
-    color: #028090;
-  }
-
-  .logo_display {
-    background-image: linear-gradient(to right, #0ab48f, #0ab48f);
-    background-color: rgb(222, 220, 216);
-    border-radius: 15px;
   }
 }

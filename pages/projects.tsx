@@ -10,7 +10,7 @@ export default function Projects() {
     return (
     <div className={home.container}>
       <Head>
-        <title>Projects</title>
+        <title>alecnazzy | Projects</title>
         <meta name="description" content="Projects route" />
         <link rel="icon" href="/icons8-neo-48.png" />
       </Head>
