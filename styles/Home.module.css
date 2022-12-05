@@ -37,11 +37,6 @@
   width: 500px;
   margin: 25px 15px;
   padding: 15px;
-
-  /* background-color: #0ae6b7;
-  color:rgb(18, 18, 17);
-  border-radius: 40px;
-  font-size: x-large; */
 }
 .text p {
   text-align: center;
@@ -60,8 +55,6 @@
   font-weight: lighter;
   padding: 10px;
   border-radius: 17px;
-
-  /* color: #248a74; */
 }
 .text h2:hover {
   transition: 0.3s;
@@ -93,6 +86,7 @@
 }
 
 
+
 /* Mobile Device Styling */
 @media (max-width: 600px) {
   .title {
@@ -107,6 +101,9 @@
   }
   .text h1 {
     font-size: 35px;
+  }
+  .text Image {
+    width: 100%;
   }
 }
 
