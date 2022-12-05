@@ -10,8 +10,9 @@ export default function Projects() {
             <h1 className={home.title}>Projects</h1>
 
             {/* Boba theme project */}
-
             <div className={home.text}>
+                
+                
                 <h1>
                     Boba theme for VSCode
                 </h1>
@@ -22,21 +23,25 @@ export default function Projects() {
                         GitHub repository
                     </Link>
                 </h2>
-                <Image
+                
+                
+                </div>
+                <div>
+                    <Image
                 className={home.image}
                 src={"/html-boba.png"}
                 alt="JS example"
                 // width={500}
                 // height={350}
                 
-                layout={'intrinsic'} width={500} height={350} objectFit={'contain'}
-            />
-            </div>
+                layout={'intrinsic'} width={900} height={750} objectFit={'contain'}
+                    />
+                </div>
+                
 
         
         
         {/* Website portfolio project */}
-
         <div className={home.text}>
             <h1>This Website</h1>
                 <p>I created this site with TypeScript, Next.js, and deployed
@@ -46,7 +51,7 @@ export default function Projects() {
                     GitHub repository
                 </Link>
             </h2>
-        </div>  
-      </div>
+        </div> 
+        </div> 
     )
 }

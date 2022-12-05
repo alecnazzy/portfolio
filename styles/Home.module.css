@@ -37,6 +37,11 @@
   width: 500px;
   margin: 25px 15px;
   padding: 15px;
+
+  /* background-color: #0ae6b7;
+  color:rgb(18, 18, 17);
+  border-radius: 40px;
+  font-size: x-large; */
 }
 .text p {
   text-align: center;
@@ -55,11 +60,15 @@
   font-weight: lighter;
   padding: 10px;
   border-radius: 17px;
+
+  /* color: #248a74; */
 }
 .text h2:hover {
   transition: 0.3s;
   background-color: #0ab48f;
-  border-radius: 15px;
+  border-radius: 17px;
+
+  background-color: #0ab48f;
 }
 .text .image {
   border-radius: 8%;
@@ -92,6 +101,9 @@
   }
   .text {
     width: 300px;
+
+    width: 100%;
+    border-radius: 0px;
   }
   .text h1 {
     font-size: 35px;
@@ -103,26 +115,20 @@
 
 @media (prefers-color-scheme: light) {
 
-  .navbar {
-    background-color: rgb(222, 220, 216);
-  }
-  .navbar li {
-    color: rgb(0, 0, 0);
-  }
-
   .title {
-    color: #028090;
+    color: #0ab48f;
   }
 
   .text {
     color: rgb(18, 18, 17);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .text h1 {
     color: rgb(18, 18, 17);
+  }
+  .text h2 {
+    color: #f0f3bd;
+    background-color: #0ab48f;
+    border-radius: 17px;
   }
   .text h3 {
     color: #028090;
@@ -130,12 +136,7 @@
 
   .logo_display {
     background-image: linear-gradient(to right, #0ab48f, #0ab48f);
-    border-radius: 15px;
-  }
-
-  .footer {
-    border-color: rgb(222, 220, 216);
     background-color: rgb(222, 220, 216);
-    color: #0ab48f;
+    border-radius: 15px;
   }
 }
