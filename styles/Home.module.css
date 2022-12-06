@@ -50,7 +50,7 @@
 
   background-color: #0ae6b7;
   border-radius: 25px;
-  color: rgb(19, 19, 19);
+  color: #25262a;
 }
 .text p {
   text-align: center;
@@ -67,19 +67,25 @@
   font-family: monospace;
   font-weight: lighter;
   padding: 10px;
-  color: rgb(19, 19, 19);
+  color: #25262a;
   border-radius: 15px;
 }
 .text h2:hover {
   background-color: #0bd6aa;
   padding: 10px;
 }
+.text .link {
+  color: #1d7f6b;
+}
+.text .link:hover {
+  text-decoration: underline;
+}
+
 .text .image {
   border-radius: 8%;
 }
 
 .contact {
-  color: #f0f3bd;
   border-radius: 15px;
 }
 .contact:hover {
@@ -105,13 +111,15 @@
     margin-top: 80px;
     text-align: center;
   }
+  .container h1 {
+    text-align: center;
+  }
   .text {
     width: 100%;
     border-radius: 0px;
   }
   .text h1 {
     font-size: 35px;
-    text-align: start;
   }
   .text p {
     text-align: start;

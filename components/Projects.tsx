@@ -13,8 +13,9 @@ export default function Projects() {
                 
                 
                 
-                    <p>A little theme I cooked up, inspired by the pastel colors common with
-                    boba(bubble) tea that are easier for the eyes to digest.</p>
+                    <p>A little <Link className={home.link} href="https://marketplace.visualstudio.com/items?itemName=alecnazzy.boba-theme">theme</Link> I 
+                    made up, inspired by the pastel colors common with
+                    boba(bubble) tea that are easier on the eyes.</p>
                 <h2>
                     <Link href="https://github.com/alecnazzy/boba-theme" target="_blank">
                         GitHub repository

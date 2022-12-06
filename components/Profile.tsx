@@ -16,7 +16,7 @@ export default function Profile() {
             </div>
             <h1>About me</h1>
             <div className={home.text}>
-                <p>I enjoy making cool things for the internet, [insert streaming service here] and chill, and using expensive software 
+                <p>I enjoy working on cool projects, [insert streaming service here] and chill, and using overpriced software 
                 like Adobe Creative Suite for my other hobbies.</p>
                 
                 <p>I am a student at Florida International University, majoring in computer science. During college I hope to find 

@@ -5,6 +5,7 @@ import project from '../styles/Projects.module.css'
 import home from '../styles/Home.module.css'
 import Project from '../components/Projects'
 import Image from 'next/image'
+import InProgress from '../components/InProgress'
 
 export default function Projects() {
     return (
@@ -20,6 +21,8 @@ export default function Projects() {
           <Navbar />
 
           <Project />
+
+          <InProgress />
 
           <Footer />
       </main>
