@@ -22,7 +22,7 @@ export default function Profile() {
                 <p>I am a student at Florida International University, majoring in computer science. During college I hope to find 
                 an (<small>paid🤞</small>) internship to increase my skills in web development and pay rent.</p>
 
-                <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include React, Next.js, PostgreSQL, 
+                <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include React, Next.js, MongoDB, 
                 along with a little Java.</p>
 
                 <h2><a href="\alec-nazworth-resume.pdf" download>Resume</a></h2>

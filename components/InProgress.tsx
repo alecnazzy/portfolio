@@ -8,15 +8,15 @@ export default function InProgress() {
 
             <h1 className={home.title}>In Progress</h1>
 
-            <h1>Disney+ clone</h1>
+            <h1>Streetwear Online retailer</h1>
             <div className={home.text}>
                 
                 
                 
-                    <p>A Disney+ clone that I am making with TypeScript, Next.js, Tailwind,
-                    and the <Link className={home.link}href="https://www.themoviedb.org/documentation/api" target="_blank">TMDB API</Link>.</p>
+                    <p>An online clothing store project I&apos;m working on using Typescript, Next.js,
+                    and MongoDB.</p>
                 <h2>
-                    <Link href="https://github.com/alecnazzy/disney-plus-and-chill" target="_blank">
+                    <Link href="https://github.com/alecnazzy/streetwear-store" target="_blank">
                         GitHub repository
                     </Link>
                 </h2>
