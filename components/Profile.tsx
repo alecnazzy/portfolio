@@ -16,14 +16,20 @@ export default function Profile() {
             </div>
             <h1>About me</h1>
             <div className={home.text}>
-                <p>I enjoy working on cool projects, [insert streaming service here] and chill, and using overpriced software 
-                like Adobe Creative Suite for my other hobbies.</p>
-                
-                <p>I am a student at Florida International University, majoring in computer science. During college I hope to find 
-                an (<small>paid🤞</small>) internship to increase my skills in web development and pay rent.</p>
+                <p>
+                    I&apos;m a student at Florida International University, majoring in computer science. During college I hope to find 
+                    an (<small>paid🤞</small>) internship to increase my skills in web development and pay rent.
+                </p>
 
-                <p>I have mostly worked with JavaScript and TypeScript. Other technologies I use include React, Next.js, MongoDB, 
-                along with a little Java.</p>
+                <p>
+                    Technologies I am familiar with and use in my projects are TypeScript, React, Next.js, and MongoDB. I have also used Python and Java.
+                    I enjoy the design and development process of creating a website, specifically the aspect of making each project highly accessible.
+                </p>
+
+                <p>
+                    I enjoy watching movies, sports, and traveling. Among places I have been my favorites
+                    have been New York City and The Balkans. I&apos;m planning a trip to Spain✈️ for after I graduate, while I learn Spanish/Catalan.
+                </p>
 
                 <h2><a href="\alec-nazworth-resume.pdf" download>Resume</a></h2>
             </div>
